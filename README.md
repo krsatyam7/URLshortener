@@ -3,7 +3,7 @@
 This is a Python program that allows you to shorten URLs using various URL shortening services. It provides a user-friendly interface using the Gradio library.
 
 
-<p align="center"><a href="https://krsatyam7-urlshortner.hf.space"><img src="https://github.com/krsatyam7/URLshortener/assets/110342305/61860571-34b5-4ba7-9b99-2803ee6ce818">Access it from here 🔗</a></p>
+<p align="center"><a href="https://krsatyam7-urlshortner.hf.space"><img src="https://github-production-user-asset-6210df.s3.amazonaws.com/110342305/250240436-61860571-34b5-4ba7-9b99-2803ee6ce818.png">Access it from here 🔗</a></p>
 
 
 
