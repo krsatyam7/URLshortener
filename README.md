@@ -12,14 +12,13 @@ This is a Python program that allows you to shorten URLs using various URL short
 
 Before running the program, make sure you have the following libraries installed:
 
-- `random`
 - `gradio`
 - `pyshorteners`
 
 You can install these dependencies using pip:
 
 ```bash
-pip install random gradio pyshorteners
+pip install gradio pyshorteners
 ```
 
 ### Program Overview
