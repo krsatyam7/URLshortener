@@ -83,5 +83,5 @@ service_dropdown = gr.Dropdown(choices=list(services.keys()), label="Select the 
 
 output_text = gr.outputs.Textbox(label="Shortened URL:")
 
-interface = gr.Interface(fn=shorten_url, inputs=[url_input, service_dropdown], outputs=output_text, title="Link Shortener 🔗", theme=gr.themes.Soft(),allow_flagging="never")
+interface = gr.Interface(fn=shorten_url, inputs=[url_input, service_dropdown], outputs=[output_text.style(show_copy_button=True, container=True),], title="Link Shortener 🔗", theme=gr.themes.Soft(),allow_flagging="never")
 interface.launch()
