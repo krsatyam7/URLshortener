@@ -63,7 +63,7 @@ def bitly_shorten(url):
         url = "https://" + url
     try:
         # Shorten URL using Bitly
-        s = pyshorteners.Shortener(api_key='39f545f4cf086de13b4ec3c3f9f2173c9cd9454d')
+        s = pyshorteners.Shortener(api_key='ENTER_YOUR_OWN_API_KEY')
         shortened_url = s.bitly.short(url)
         return shortened_url
     except (BadAPIResponseException, BadURLException, ExpandingErrorException, ShorteningErrorException) as e:
@@ -81,7 +81,7 @@ def tinyurl_shorten(url):
 def cuttly_shorten(url):
     try:
         # Shorten URL using Cuttly
-        s = pyshorteners.Shortener(api_key="05eb76d528360fee280457b45e67561303f37")
+        s = pyshorteners.Shortener(api_key="ENTER_YOUR_OWN_API_KEY")
         shortened_url = s.cuttly.short(url)
         return shortened_url
     except (BadAPIResponseException, BadURLException, ExpandingErrorException, ShorteningErrorException) as e:
